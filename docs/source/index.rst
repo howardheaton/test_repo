@@ -18,6 +18,4 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   my_file
+   _autogen/*
