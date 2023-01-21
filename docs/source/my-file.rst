@@ -6,10 +6,10 @@ This page has a summary. Here it is.
 Functions
 -------------
 
-.. currentmodule:: test-repo.my-file
+.. currentmodule:: test_repo.my_file
 .. autofunction:: find_element
 
-.. currentmodule:: test-repo.my-file
+.. currentmodule:: test_repo.my_file
 .. autofunction:: compare
 
 Dependencies
