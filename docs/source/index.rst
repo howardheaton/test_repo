@@ -20,4 +20,4 @@ Contents
 
    usage
    api
-   my-file
+   my_file
