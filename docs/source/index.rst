@@ -17,5 +17,8 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 2
+    :glob:
+    :caption: Code:
 
-   _autogen/*
+    _autogen/*
