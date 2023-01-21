@@ -1,5 +1,12 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- Path Setup
+
+import os
+import sys
+
+import test-repo.my-file
+
 # -- Project information
 
 project = 'Lumache'
