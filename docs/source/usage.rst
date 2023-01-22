@@ -20,6 +20,10 @@ you can use the ``lumache.get_random_ingredients()`` function:
 
 .. autofunction:: lumache.get_random_ingredients
 
+This is a test insert
+
+.. autofunction:: src/my_file.test_func
+
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
 or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
 will raise an exception.
