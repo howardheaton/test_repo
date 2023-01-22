@@ -22,20 +22,7 @@ import sys
 sys.path.insert(0, os.path.abspath('./../'))
 autodoc_mock_imports = ["alpha","beta"]
 
-import sphinx.apidoc
-def setup(app):
-    app.add_javascript('copybutton.js')
-    sphinx.apidoc.main(['-f', #Overwrite existing files
-                        '-T', #Create table of contents
-                        '-e', #Give modules their own pages
-                        #'-E', #user docstring headers
-                        #'-M', #Modules first
-                        '-o', #Output the files to:
-                        './_autogen/', #Output Directory
-                        './../sphinxtest', #Main Module directory
-                        ]
-    )
-
+ 
 
 # If true, the current module name will be prepended to all description
 # unit titles (such as .. function::).
